@@ -33,13 +33,13 @@ authors:
     affiliation: "2, 3"
 bibliography: paper.bib
 affiliations:
-- name: University College London Institute of Cardiovascular Science, London, UK
+- name: University College London Institute of Cardiovascular Science, London, United Kingdom
   index: 1
-- name: NIHR Biomedical Research Centre, Moorfields Eye Hospital NHS Foundation Trust
+- name: NIHR Biomedical Research Centre, Moorfields Eye Hospital NHS Foundation Trust, London, United Kingdom
   index: 2
-- name: University College London Institute of Ophthalmology, London, UK
+- name: University College London Institute of Ophthalmology, London, United Kingdom
   index: 3
-- name: Guy's and St Thomas' NHS Foundation Trust
+- name: Guy's and St Thomas' NHS Foundation Trust, London, United Kingdom
   index: 4
 ---
 
