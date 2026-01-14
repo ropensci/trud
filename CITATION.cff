@@ -1,0 +1,44 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Warwick
+    given-names: Alasdair Neil
+    email: alasdair.warwick.19@ucl.ac.uk
+    orcid: https://orcid.org/0000-0002-0800-2890
+  - family-names: Olvera-Barrios
+    given-names: Abraham
+    orcid: https://orcid.org/0000-0002-3305-4465
+  - family-names: Ung
+    given-names: Chuin Ying
+    orcid: https://orcid.org/0000-0001-8487-4589
+  - family-names: Luben
+    given-names: Robert
+    orcid: https://orcid.org/0000-0002-5088-6343
+
+title: "trud: An R interface to the NHS England Technology Reference data Update Distribution (TRUD) API"
+date-released: 2026
+doi: 10.21105/joss.09000
+url: https://doi.org/10.21105/joss.09000
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Warwick
+      given-names: Alasdair Neil
+      orcid: https://orcid.org/0000-0002-0800-2890
+    - family-names: Olvera-Barrios
+      given-names: Abraham
+      orcid: https://orcid.org/0000-0002-3305-4465
+    - family-names: Ung
+      given-names: Chuin Ying
+      orcid: https://orcid.org/0000-0001-8487-4589
+    - family-names: Luben
+      given-names: Robert
+      orcid: https://orcid.org/0000-0002-5088-6343
+  title: "trud: An R interface to the NHS England Technology Reference data Update Distribution (TRUD) API"
+  journal: "Journal of Open Source Software"
+  year: 2026
+  volume: 11
+  issue: 117
+  start: 9000
+  doi: 10.21105/joss.09000

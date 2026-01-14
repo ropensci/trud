@@ -18,7 +18,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/trud)](https://CRAN.R-p
 Status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Status at rOpenSci Software Peer
 Review](https://badges.ropensci.org/705_status.svg)](https://github.com/ropensci/software-review/issues/705)
-[![status](https://joss.theoj.org/papers/810bf12b9b80b17cadc82397f5022154/status.svg)](https://joss.theoj.org/papers/810bf12b9b80b17cadc82397f5022154)
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.09000/status.svg)](https://doi.org/10.21105/joss.09000)
 <!-- badges: end -->
 
 The goal of `trud` is to provide a convenient R interface to the
@@ -98,9 +98,9 @@ library(trud)
 
 # See items you can currently access
 get_subscribed_metadata()
-#>  ■■■■■■■■                          25% |  ETA:  4s
-#>  ■■■■■■■■■■■■■■■■■■■■■■■■          78% |  ETA:  1s
-#> # A tibble: 17 × 3
+#>  ■■■■■■■■                          23% |  ETA:  5s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■         78% |  ETA:  1s
+#> # A tibble: 18 × 3
 #>    item_number item_name                                            metadata    
 #>          <int> <chr>                                                <list>      
 #>  1         394 Community Services Data Set pre-deadline extract XM… <named list>
@@ -115,11 +115,12 @@ get_subscribed_metadata()
 #> 10          19 NHS UK Read Codes Clinical Terms Version 3           <named list>
 #> 11         255 NHS UK Read Codes Clinical Terms Version 3, Cross M… <named list>
 #> 12          24 NHSBSA dm+d                                          <named list>
-#> 13         264 OPCS-4 eVersion book                                 <named list>
-#> 14         659 Primary Care Domain reference sets                   <named list>
-#> 15         101 SNOMED CT UK Clinical Edition, RF2: Full, Snapshot … <named list>
-#> 16          98 SNOMED CT UK Data Migration Workbench                <named list>
-#> 17        1799 SNOMED CT UK Monolith Edition, RF2: Snapshot         <named list>
+#> 13         119 OPCS-4 data files                                    <named list>
+#> 14         264 OPCS-4 eVersion book                                 <named list>
+#> 15         659 Primary Care Domain reference sets                   <named list>
+#> 16         101 SNOMED CT UK Clinical Edition, RF2: Full, Snapshot … <named list>
+#> 17          98 SNOMED CT UK Data Migration Workbench                <named list>
+#> 18        1799 SNOMED CT UK Monolith Edition, RF2: Snapshot         <named list>
 ```
 
 **Step 2**: Browse all available items (note: subscription required for
@@ -128,7 +129,7 @@ access):
 ``` r
 # List all available TRUD items
 trud_items()
-#> # A tibble: 73 × 2
+#> # A tibble: 74 × 2
 #>    item_number item_name                                                        
 #>          <int> <chr>                                                            
 #>  1         246 Cancer Outcomes and Services Data Set XML Schema                 
@@ -137,11 +138,11 @@ trud_items()
 #>  4         393 Community Services Data Set post-deadline extract XML Schema     
 #>  5         394 Community Services Data Set pre-deadline extract XML Schema      
 #>  6         391 Community Services Data Set XML Schema                           
-#>  7         248 Diagnostic Imaging Data Set XML Schema                           
-#>  8         239 dm+d XML transformation tool                                     
-#>  9        1859 Electronic Prescribing and Medicines Administration Data Sets XM…
-#> 10        1819 Emergency Care Data Set XML Schema                               
-#> # ℹ 63 more rows
+#>  7        1899 Diagnostic Imaging Data Set (DIDS) - CSV format                  
+#>  8         248 Diagnostic Imaging Data Set XML Schema                           
+#>  9         239 dm+d XML transformation tool                                     
+#> 10        1859 Electronic Prescribing and Medicines Administration Data Sets XM…
+#> # ℹ 64 more rows
 ```
 
 **Step 3**: Subscribe to additional items you need via the [NHS TRUD

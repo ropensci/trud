@@ -1,6 +1,34 @@
 citHeader("To cite gtexr in publications use:")
 
 bibentry(
+  key     = "Warwick2026",
+  bibtype = "Article",
+  title   = "trud: An R interface to the NHS England Technology Reference data Update Distribution (TRUD) API",
+  author  = c(
+    person("Alasdair Neil", "Warwick",
+           role = "aut",
+           email = "alasdair.warwick.19@ucl.ac.uk",
+           comment = c(ORCID = "0000-0002-0800-2890")),
+    person("Abraham", "Olvera-Barrios",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-3305-4465")),
+    person("Chuin Ying", "Ung",
+           role = "aut",
+           comment = c(ORCID = "0000-0001-8487-4589")),
+    person("Robert", "Luben",
+           role = "aut",
+           comment = c(ORCID = "0000-0002-5088-6343"))
+  ),
+  journal = "Journal of Open Source Software",
+  year    = "2026",
+  volume  = "11",
+  number  = "117",
+  pages   = "9000",
+  doi     = "10.21105/joss.09000",
+  url     = "https://doi.org/10.21105/joss.09000"
+)
+
+bibentry(
   key = "trud",
   bibtype  = "Manual",
   title    = "Query the NHS TRUD API",
