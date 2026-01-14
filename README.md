@@ -5,7 +5,6 @@
 
 <!-- badges: start -->
 
-[![pkgcheck](https://github.com/ropensci/trud/actions/workflows/pkgcheck.yaml/badge.svg)](https://github.com/ropensci/trud/actions/workflows/pkgcheck.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/ropensci/trud/branch/main/graph/badge.svg)](https://app.codecov.io/gh/ropensci/trud?branch=main)
 [![R-CMD-check](https://github.com/ropensci/trud/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/trud/actions/workflows/R-CMD-check.yaml)
@@ -98,8 +97,8 @@ library(trud)
 
 # See items you can currently access
 get_subscribed_metadata()
-#>  ■■■■■■■■                          23% |  ETA:  5s
-#>  ■■■■■■■■■■■■■■■■■■■■■■■■■         78% |  ETA:  1s
+#>  ■■■■■■■■■■■■                      35% |  ETA:  4s
+#>  ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■     95% |  ETA:  0s
 #> # A tibble: 18 × 3
 #>    item_number item_name                                            metadata    
 #>          <int> <chr>                                                <list>      
