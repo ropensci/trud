@@ -151,7 +151,8 @@ download_item <- function(
     spinner = TRUE
   )
 
-  resp_file_path <- request_download_item(url, file_path) |>
+  encoded_url <- utils::URLencode(url, repeated = FALSE)
+  resp_file_path <- request_download_item(encoded_url, file_path) |>
     purrr::pluck("body") |>
     unclass() |>
     normalizePath()
